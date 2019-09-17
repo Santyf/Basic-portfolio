@@ -15,6 +15,7 @@ header {
     height: 80px;
     width: 250px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
     
 }
 
@@ -24,16 +25,38 @@ h1 {
     padding: 0 10px;
 }
 
-nav ul li a {
+nav {
+    position: absolute;
+    top: 10%;
+    right: 300px;
     
-    
-         
+
 }
 
-ul {
-    list-style-type: none;
+a {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+    
+
+a:hover {
+    background-color: teal;
+    color: white;
+    border-radius: 20px;
     
 }
+    
+         
+
+
+/* ul {
+    list-style-type: none;
+    
+} */
 input,textarea {
     width: 100%;
 }
@@ -79,6 +102,7 @@ img {
     height: 200px;
     float: left;
     margin-right: 15px;
+    
     
 }
 
